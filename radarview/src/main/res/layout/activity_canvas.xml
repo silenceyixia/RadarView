@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:rv="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.silenceyixia.radarview.RadarView
+        android:layout_gravity="center"
+        android:id="@+id/radarview"
+        rv:maxRadius="180dp"
+        rv:netWidth="1px"
+        rv:netColor="@color/colorAccent"
+        rv:rvTextColor="@color/color_333333"
+        rv:rvTextSize="10sp"
+        rv:netPointColor="@color/colorPrimary"
+        rv:netPointRadius="2dp"
+        rv:coverColor="@color/color_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
